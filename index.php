@@ -1,3 +1,18 @@
+<?php
+session_start();
+ob_start();
+
+include "library/config.php";
+
+if(empty($_SESSION['username']) OR empty($_SESSION['password'])) {
+    echo "<p align='center'><h1>Anda Harus Login Sek Brohh!!</h1></p>";
+    echo "<meta http-equiv='refresh' content='2; url=login.php'>";
+}else{
+    define('INDEX', true);
+
+?>
+
+
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from
@@ -45,7 +60,7 @@ desired effect
     <!-- Content Header (Page header) -->
     <section class="content-header">
 
-      <?php include "content/dashboard.php"?>
+      <?php include "konten.php"?>
     </section>
       
     <!-- Main content -->
@@ -158,3 +173,6 @@ desired effect
      user experience. -->
 </body>
 </html>
+<?php
+}
+?>

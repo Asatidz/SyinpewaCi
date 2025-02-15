@@ -1,0 +1,105 @@
+.page-container {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+.page-container .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.page-container .header {
+  background-color: #333;
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-container .header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.page-container .header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.page-container .main {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #333;
+  color: white;
+  position: relative;
+  padding: 20px;
+}
+.page-container .main img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.page-container .main-content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  text-align: left;
+  padding: 20px;
+  align-self: center;
+}
+.page-container .main-content h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.page-container .main-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.page-container .signup-form {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin-bottom: 20px;
+  align-self: flex-end;
+}
+.page-container .signup-form h3 {
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+.page-container .signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.page-container .signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.page-container .footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0px 20px;
+}
+.page-container .footer i {
+  color: red;
+}
+.page-container .footer span {
+  margin: 0 5px;
+}

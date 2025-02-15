@@ -21,17 +21,19 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header"><b>Main Navigation</b></li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href=""><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
-        <li><a href="table1.php"><i class="fa fa-link"></i> <span>Pelanggaran</span></a></li>
+        <li class="active"><a href="?hal=dashboard"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
+        <li><a href="?hal=pelanggaran"><i class="fa fa-link"></i> <span>Pelanggaran</span></a></li>
         <li class="treeview">
          
          
-          <li class="active"><a href="tabel2.php"><i class="fa fa-link"></i> <span>Data Siswa</span></a></li>
-          <li class="active"><a href="tabel3.php"><i class="fa fa-link"></i> <span>Riwayat</span></a></li>
-          <li class="active"><a href=""><i class="fa fa-link"></i> <span>Logout</span></a></li>
+          <li class="active"><a href="?hal=siswa"><i class="fa fa-link"></i> <span>Data Siswa</span></a></li>
+          <li class="active"><a href="?hal=riwayat"><i class="fa fa-link"></i> <span>Riwayat</span></a></li>
+          <li class="active"><a href="logout.php"><i class="fa fa-link"></i> <span>Logout</span></a></li>
           </ul>
         </li>
       </ul>
+
+
       <!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
