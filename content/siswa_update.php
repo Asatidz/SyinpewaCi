@@ -18,7 +18,6 @@ $error = "";
 
 if($foto == ""){
     $query  = "update siswa SET ";
-    $query .= "foto = '$foto', ";
     $query .= "nama_siswa = '$nama', ";
     $query .= "nis = '$nis', ";
     $query .= "tanggal_lahir = '$tgl', ";

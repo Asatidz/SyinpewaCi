@@ -1,8 +1,28 @@
-    <section class="content-header">
-      <h1>
+<?php
+    if(!defined('INDEX')) die("");
+    switch ($_SESSION['role']) {
+        case '55':
+            $role = "Administrator";
+            break;
+        case '66':
+            $role = "Operator";
+            break;
+        case '77':
+            $role = "Owner";
+            break;
+        default:
+            $role = "User";
+            break;
+    }
+?>
+    
+      <h2>
         Dashboard
-        <small>Sistem Informasi Poin Pelanggaran Siswa</small>
-      </h1>
+      </h2>
+<h1>Selamat Datang di Web System Informasi Poin Pelanggaran</h1>
+    <h3>Hai <?=$_SESSION['nama']?>☺️☺️</h3>
+    <h3>Anda login sebagai <?= $role ?></h3>
+    <section class="content-header">
 
     </section>
 

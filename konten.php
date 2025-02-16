@@ -22,7 +22,10 @@
     "riwayat_tebus",
     "riwayat_insert",
     "prosesdata",
-    "riwayat_hapus"
+    "riwayat_hapus",
+    "tebus",
+    "tebus_tambah",
+    "tebus_insert",
     ];
 
 if (isset($_GET['hal'])) {

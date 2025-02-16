@@ -2,14 +2,15 @@
     <section class="sidebar">
 
       <!-- Sidebar user panel (optional) -->
+      <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="pull-left image">
           <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Techno Mancers</p>
+          <p>TechnoMancers</p>
           <!-- Status -->
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <a href=""><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
 
@@ -28,6 +29,7 @@
          
           <li class="active"><a href="?hal=siswa"><i class="fa fa-link"></i> <span>Data Siswa</span></a></li>
           <li class="active"><a href="?hal=riwayat"><i class="fa fa-link"></i> <span>Riwayat</span></a></li>
+          <li class="active"><a href="?hal=tebus"><i class="fa fa-link"></i> <span>Penebusan</span></a></li>
           <li class="active"><a href="logout.php"><i class="fa fa-link"></i> <span>Logout</span></a></li>
           </ul>
         </li>
