@@ -23,7 +23,7 @@
      </nav>
     </div>
     <div class="main">
-     <img alt="Background image with an avocado and some metallic objects" height="800" src="https://storage.googleapis.com/a1aa/image/jLGF3m5E2h_nBdCgxqUdWvruBPrqDwGveiT7zuZhQkU.jpg" width="1200"/>
+     <img alt="Background image with an avocado and some metallic objects" height="800" src="css/bgc.jpg" width="1200"/>
      <div class="main-content">
       <h2>
        System Informasi Pelaporan Pelanggaran
