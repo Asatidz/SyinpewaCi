@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>AdminLTE 2 | Starter</title>
-        <meta
+    <title>AdminLTE 2 | Data Tables</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
       name="viewport"
     />
@@ -46,8 +47,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"
     />
-    </head>
-      <body class="hold-transition skin-blue sidebar-mini">
+  </head>
+  <body class="hold-transition skin-blue sidebar-mini">
     <section class="content">
           <div class="row">
             <div class="col-xs-12">
@@ -116,7 +117,7 @@
           </div>
           <!-- /.row -->
         </section>
-            <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap 3.3.7 -->
     <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- DataTables -->
