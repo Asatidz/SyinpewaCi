@@ -1,9 +1,16 @@
+   <section class="content">
+          <div class="row">
+            <div class="col-xs-12">
+              <!-- /.box -->
 
-<div class="box-body">
-
-        <h2 class="judul">Data Pelanggaran</h2>
-        <a href="?hal=pelanggaran_tambah" class="tombol"><b>Tambah</b></a>
-              <table id="example2" class="table table-bordered table-hover">
+              <div class="box">
+                <div class="box-header">
+                  <h3 class="box-title">Pelanggaran</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <a href="?hal=pelanggaran_tambah" class="tombol"><b>Tambah</b></a>
+                  <table id="example2"class="table table-bordered table-striped">
                 <thead>
                 <tr>
                   <th>No</th>
@@ -43,5 +50,6 @@
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
-
+        </div>
   </div>
+      </section>
